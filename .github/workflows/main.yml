@@ -31,6 +31,7 @@ jobs:
       run: npm install
     - name: get path
       run: pwd
+    - name: get path
       run: ls -al
     - name: build
       run: npm run build
