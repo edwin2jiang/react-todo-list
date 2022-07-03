@@ -51,6 +51,5 @@ jobs:
         port: 22 # optional, default is 22
         # SSH User name
         user: root
-        # Private key
-        key: Jiangweiwei123
+        password: Jiangweiwei123
     
