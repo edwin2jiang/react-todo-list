@@ -39,9 +39,9 @@ jobs:
     - name: copy file via ssh password
       uses: appleboy/scp-action@master
       with:
-        host: 118.195.246.63
-        username: root
-        password: Jiangweiwei123
+        host: "118.195.246.63"
+        username: "root"
+        password: "Jiangweiwei123"
         port: 22
         source: "build"
         target: "/www/www.hello.cn"
