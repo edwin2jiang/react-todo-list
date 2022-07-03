@@ -29,6 +29,9 @@ jobs:
         node-version: "14.x" # optional
     - name: install deps
       run: npm install
+    - name: get path
+      run: pwd
+      run: ls -al
     - name: build
       run: npm run build
     - name: scp action
