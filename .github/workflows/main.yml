@@ -35,7 +35,7 @@ jobs:
     - name: get path
       run: ls -al
     - name: build
-      run: npm run build
+      run: CI='' npm run build
     - name: scp action
       # You may pin to the exact commit or the version.
       # uses: c0c1/scp-action@7c13f74869e81c70a71b04ab0a7087dbdee76ab4
