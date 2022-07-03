@@ -41,7 +41,7 @@ jobs:
       with:
         host: "118.195.246.63"  # 记得这几个都是字符串, 去掉字符串的话,会引起报错
         username: "root"
-        password: "Jiangweiwei123"
+        password: ${{ PROD_PASS }}
         port: 22
         source: "build"
         target: "/www/www.hello.cn"
